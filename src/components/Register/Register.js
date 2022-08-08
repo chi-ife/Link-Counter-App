@@ -9,12 +9,12 @@ const Register = ({onSignIn, onHome, loadUser}) => {
 
     const onNameChange = (e) =>{
         setName(e.target.value)
-        // console.log(name)
+        
     }
 
     const onEmailChange = (e) =>{
         setEmail(e.target.value)
-        // console.log(email)
+        
     }
 
     const onPasswordChange = (e) =>{
