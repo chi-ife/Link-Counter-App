@@ -1,5 +1,6 @@
 import React from 'react'
 import './Linkform.css'
+import { useState } from 'react'
 
 const Linkform = () => {
   const [input, setInput] = useState('')

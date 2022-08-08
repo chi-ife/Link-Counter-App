@@ -71,7 +71,7 @@ function App() {
         <Navigation onSignIn={handleSignIn} />
         <Logo />
         <Rank username={user.name} entries= {user.entries}/>
-        <Linkform />
+        <Linkform handleBtnSubmit/>
         </>
       )} 
     </div>
